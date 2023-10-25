@@ -1,13 +1,16 @@
 # Spotify Match React Native App
+Discover and connect with music enthusiasts using the Spotify Match React Native App!
 
-## Setup Notes-
-
-`git clone https://github.com/AmandeepSingh789/Spotify-Match.git`
+## Getting Started
+```bash
+git clone https://github.com/cajowils/Spotify-Match.git
+cd Spotify-Match/Spotify-Match-App
+```
 
 `npm install --force` and `yarn add` need to be used for the packages to get installed.
 Its also reccomended to clear the cache. (recommended)
 
-Indivisual packages installation-
+Individual packages installation-
 `npm install` or `yarn add` or `npx expo install <indivisual package name>` 
 
 Possibly other seperate installations that may need to be completed-
@@ -15,25 +18,21 @@ Possibly other seperate installations that may need to be completed-
 - `npx expo install expo-media-library@~15.0.`
 - `npx expo install expo-auth-session@~3.8.0`
 
-Note- After installing all the packages, there will be npm dependency issues or vulnerabilities warning. But the app will still work.
+Note- After installing all the packages, there may be npm dependency issues or vulnerabilities warnings. The application should work regardless.
 
-### to run the app-
+## Usage
+### Running the app-
 `npx expo start` or
 `npx expo start --tunnel`
 
-### to run the test-
+### Testing the app-
+The unit tests are placed in the tests directory. 
+To run them:
 `npm run test`
 
-### to clear the cache and run-
+### Clear cache and run the app-
 `npx expo start --clear`
 OR ADD "clean": "npx expo start --clear" to package.json scripts for cache clearing
-
-## Unit test-
-
-The unit tests are placed in the tests directory. 
-
-To run them-
-`npm run test` 
 
 ## Navigation Sturcture-
 - Stack.Navigator
